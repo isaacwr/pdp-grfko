@@ -4,7 +4,7 @@ First, a quick overview of what is here. This is a rudimentary implementation fo
 
 This project has two main objectives: to move imagery and analytics deliveries away from GME and onto Maps API, and to simplify and streamline the process for preparing and delivering data.
 
-#####TL;DR: Couldn't load private GeoJson files, project stalled.
+#####TL;DR: Couldn't load private GeoJson files, ran out of time.
 
 #####Using the app
 1. Click Login
