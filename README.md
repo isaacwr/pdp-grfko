@@ -8,7 +8,7 @@ This project has two main objectives: to move imagery and analytics deliveries a
 
 #####Using the app
 1. Click Login
-2. Enter auth code. '1234' and '5678' are currently set up; you will only have to do this once.
+2. Enter auth code. '221293' and '1234' are currently set up; you will only have to do this once.
 2. To create new data, either go to '/admin' or go to the developers console and create new entities in the datastore
 
 #####Design story
