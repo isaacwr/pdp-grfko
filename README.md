@@ -1,12 +1,15 @@
-# PDP
-
-Working Title
+# PDP # ### Working Title ###
 
 First, a quick overview of what is here. This is a rudimentary implementation for a Google App Engine web-based authorization and access portal that includes functionality for creating user data such as profiles, projects, and links to Overlayers maps.
 
 This project has two main objectives: to move imagery and analytics deliveries away from GME and onto Maps API, and to simplify and streamline the process for preparing and delivering data.
 
-TL;DR: Couldn't load private GeoJson files, project stalled.
+######TL;DR: Couldn't load private GeoJson files, project stalled.
+
+######Using the app
+(1)Click Login
+(2)Enter auth code. '1234' and '5678' are currently set up; you will only have to do this once.
+(3)To create new data, either go to '/admin' or go to the developers console and create new entities in the datastore
 
 Rather than design from scratch, we used an app built by the Candid Resale team in New York, called Overlayers. Overlayers is a single web page app that has simple button functinality for adding layers and saving the map. All data requests are made through Maps API from cient side JavaScript. The challeges we faced the Overlayers app were: (1) restricting access to the maps, (2) having private data, and (3) displaying more than one image and analysis bundle per map.
 
@@ -25,4 +28,3 @@ Moving forward there are still a few things. The first thing that needs to be do
 A lot of this information is written in a small slide deck called 'Pilot Delivery Project Update 8/7'. Andy Hock should have these slides. We spent two weeks working on this single issue with no success at all. I've contacted the author of the Overlayers app, Sean Wohltmann, and he wasn't able to solve it with his availible bandwith, and he referred me to two solutions engineers, neither of which have responed at this time of writing. However, the feeling I get working on this is that the solution either doesn't exist on purporse for some security reason or is trivially simple and I don't see it.
 
 In addition, there is a Cloud Platfom project called isaactest-999 that I've been using, and if you go to isaactest-999.appspot.com, you'll see the latest version of the auth portal.
- # pdp-grfko
