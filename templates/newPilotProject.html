@@ -1,0 +1,10 @@
+<html>
+	<body>
+		<form method="POST" action="/newPilotProject">
+		    <p>{{ error }}</p>
+		    <p>{{ form.name.label }}: {{ form.name() }}</p>
+		    <p>{{ form.auth_id.label }}: {{ form.auth_id() }}</p>
+		    <p><input type="submit" value=Submit></p>
+		</form>
+	</body>
+</html>

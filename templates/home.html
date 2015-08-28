@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <p>This is the home page for {{ pilot_project }}</p>
+        <p>{{ username }} is currently logged in</p>
+        <p><a href="/">Home</a></p>
+        <p><a href="{{ logout }}">Logout</a></p>
+        {% for map in mapList %}
+        <p><a href="{{ map[0] }}">{{ map[1] }}</a></p>
+        {% endfor %}
+    </body>
+</html>

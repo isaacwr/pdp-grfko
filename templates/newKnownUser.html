@@ -1,0 +1,11 @@
+<html>
+	<body>
+		<p><a href="/logout">Logout</a></p>
+		<p><a href="newPilotProject">New Pilot Project</a></p>
+		<form method="POST" action="newKnownUser">
+		    <p>{{ error }}</p>
+		    <p>{{ form.auth_id.label }}: {{ form.auth_id() }}</p>
+		    <p><input type="submit" value=Submit></p>
+		</form>
+	</body>
+</html>

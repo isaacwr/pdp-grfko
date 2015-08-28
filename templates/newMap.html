@@ -1,0 +1,11 @@
+<html>
+	<body>
+		<form method="POST" action="/newMap">
+			<p>{{ error }}</p>
+		    <p>{{ form.pilot_project.label }}: {{ form.pilot_project() }}</p>
+		    <p>{{ form.location.label }}: {{ form.location() }}</p>
+		    <p>{{ form.overlayersURL.label }}: {{ form.overlayersURL() }}</p>
+		    <p><input type="submit" value=Submit></p>
+		</form>
+	</body>
+</html>
