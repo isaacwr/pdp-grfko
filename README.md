@@ -7,9 +7,9 @@ This project has two main objectives: to move imagery and analytics deliveries a
 #####TL;DR: Couldn't load private GeoJson files, project stalled.
 
 #####Using the app
-(1)Click Login
-(2)Enter auth code. '1234' and '5678' are currently set up; you will only have to do this once.
-(3)To create new data, either go to '/admin' or go to the developers console and create new entities in the datastore
+1. Click Login
+2. Enter auth code. '1234' and '5678' are currently set up; you will only have to do this once.
+2. To create new data, either go to '/admin' or go to the developers console and create new entities in the datastore
 
 ######Design story
 
