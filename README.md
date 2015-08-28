@@ -33,4 +33,5 @@ Moving forward there are still a few things. The first thing that needs to be do
 
 A lot of this information is written in a small slide deck called 'Pilot Delivery Project Update 8/7'. Andy Hock should have these slides. We spent two weeks working on this single issue with no success at all. I've contacted the author of the Overlayers app, Sean Wohltmann, and he wasn't able to solve it with his availible bandwith, and he referred me to two solutions engineers, neither of which have responed at this time of writing. However, the feeling I get working on this is that the solution either doesn't exist on purporse for some security reason or is trivially simple and I don't see it.
 
-In addition, there is a Cloud Platfom project called isaactest-999 that I've been using, and if you go to isaactest-999.appspot.com, you'll see the latest version of the auth portal.
+#####Also
+There is a Cloud Platfom project called isaactest-999 that has all of the data and is hosting the app.
